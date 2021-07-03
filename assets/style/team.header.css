@@ -1,0 +1,71 @@
+header {
+    padding: 15px;
+    height: 76px;
+  }
+  
+  header div.insta {            /*instagram icon */
+    width: 30px;
+    height: 30px;
+    float: right;
+  }
+  
+  header div.insta img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  section.section1 {         
+    position: relative;
+    font-size: 40px;
+    height: 150px;
+    border: 1px solid gray;
+    border-right: unset;
+    border-left: unset;
+  }
+  section.section1  >div.boolean-container{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+  }
+  
+  section.section1  >div.boolean-container>div.booleanteach { 
+    font-size: 45px;
+    font-family: 'Roboto-Regular';            /* boolean teach text in header */
+    height: 42px;
+  }
+   div.boolean-container>div.teach{
+    font-family:'Medium-Bold';
+    position: relative;
+    top:30px;
+    left:70px;
+    color:gray;
+    font-size:15px;
+    float:right;
+    
+  }
+  div.ppl{
+    font-family: 'Roboto-Regular'; 
+  }
+  
+  
+  
+  div.ul>ul{
+
+    list-style-type: none;
+
+  }
+
+  div.ul>ul>li:not(:first-child){
+    margin-left:15px;
+  }
+div.ul>ul>li>a{
+   font-family: 'Roboto-Regular';
+    color:black;
+    text-decoration: none;
+  }
+  div.ul>ul{
+     margin-top:-30px;
+      margin-left:500px;
+  }
+ 
+  

@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+html body {
+  min-width: 100%;
+}
+
+html body div.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 300px;
+}
+
+html body div.container div.row:not(:first-child) {
+  margin-top: 20px;
+}
+
+html body div.container div.row > div.ppl:not(:first-child) {
+  margin-left: 20px;
+}
+
+html body div.container div.row {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body div.container div.row div.ppl {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+  -webkit-box-shadow: 5px 10px 18px #888888;
+          box-shadow: 5px 10px 18px #888888;
+}
+
+html body div.container div.row div.description {
+  font-size: 14px;
+  padding: 5px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  font-family: sans-serif;
+  opacity: 0;
+  background: #dddddd;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  width: 100%;
+  height: 80%;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+}
+
+html body div.container div.row1 > div.ppl:nth-child(2n+1) {
+  background-color: #3f92ac;
+}
+
+html body div.container div.row1 > div.ppl:nth-child(2n) {
+  background-color: #a3b9c0;
+}
+
+html body div.container div.row2 > div.ppl:nth-child(2n) {
+  background-color: #3f92ac;
+}
+
+html body div.container div.row2 > div.ppl:nth-child(2n+1) {
+  background-color: #a3b9c0;
+}
+
+html body div.container div.ppl {
+  width: 100px;
+  height: 180px;
+  border-radius: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body div.container div.ppl div.img-container {
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -14px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 20px;
+}
+
+html body div.container div.ppl div.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+section.section1 {
+  position: relative;
+  font-size: 40px;
+  height: 82px;
+  border: 1px solid gray;
+  border-right: unset;
+  border-left: unset;
+}
+
+section.section1 div.booleanteach {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Roboto-Italic';
+  /* boolean teach text in header */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 42px;
+}
+
+header {
+  padding: 15px;
+  height: 76px;
+}
+
+button {
+  cursor: pointer;
+  /* subscribe button */
+  outline: none;
+  border: black 1px solid;
+  width: 140px;
+  height: 42px;
+  margin-top: 7px;
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=team.css.map */

@@ -1,0 +1,23 @@
+   @font-face{
+    src: url(../fonts/İnter/Inter-Bold.ttf);
+    font-family: 'Inter-Bold';
+    }
+    
+    @font-face {
+    font-family: 'Roboto-Italic';
+    src: url(../fonts/Roboto/RobotoMono-Medium.ttf);
+    font-weight: 500;
+    }
+    
+    @font-face{
+    font-family: 'Extra-Bold';
+    src: url(../fonts/Inconsolata/İnconsolata/Inconsolata_Condensed-ExtraBold.ttf);
+    }
+    @font-face{
+        font-family:'Roboto-Regular';
+        src:url(../fonts/RobotoMain/Roboto-Regular.ttf)
+    }
+    @font-face{
+        font-family:'Medium-Bold';
+        src:url(../fonts/RobotoMain/Roboto-Medium.ttf)
+    }

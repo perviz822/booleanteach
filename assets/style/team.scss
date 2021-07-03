@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html{
+    width:100%;
+    height:100%;
+    body{
+      
+        min-width:100%;
+        div.container{  
+            display: flex;
+            width:100%;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top:300px;
+            div.row:not(:first-child){
+                margin-top:20px;
+            }
+            
+            div.row>div.ppl:not(:first-child){
+                margin-left:20px;
+            }
+            div.row{
+              div.ppl{
+                  overflow: hidden;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  text-align: center;
+                  position: relative;
+                  box-shadow: 5px 10px 18px #888888;
+            } 
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                div.description{
+                    font-size:14px;
+                    padding:5px;
+                    text-align: left;
+                    display: flex;
+                    align-items: center;
+                    color:rgb(0, 0, 0);
+                    font-family: sans-serif;
+                    opacity: 0;
+                    background: rgb(221, 221, 221);
+                    transition: 1s all;
+                    width:100%;
+                    height:80%; 
+                    opacity: 0;
+                    position: absolute;
+                    top:100%
+                }
+              
+            }
+          
+            div.row1> div.ppl:nth-child(2n+1){
+                background-color:rgb(63, 146, 172);
+            }
+            div.row1> div.ppl:nth-child(2n){
+                background-color:rgb(163, 185, 192);
+            }
+            div.row2> div.ppl:nth-child(2n){
+                background-color:rgb(63, 146, 172);
+            
+            }
+            div.row2> div.ppl:nth-child(2n+1){
+                background-color:rgb(163,185,192);
+            
+            }
+           
+                div.ppl{
+                  
+                    width:100px;
+                    height:180px;
+                   
+                    border-radius:5%;
+                    display: flex;
+                    justify-content: center;
+                    div.img-container{
+                        overflow:hidden ;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size:cover;
+                        position: relative;
+                        top:-14px;
+                        width:80px;
+                        height:80px;
+                        border-radius:50%;
+                        background-color:white;
+                        margin-top:20px;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                           
+                    }
+                }   
+               }
+              }
+             }
+
+
+
+             section.section1 {         
+                position: relative;
+                font-size: 40px;
+                height: 82px;
+                border: 1px solid gray;
+                border-right: unset;
+                border-left: unset;
+              }
+              
+              section.section1 div.booleanteach { 
+                text-align: center;
+                font-size: 35px;
+                font-family: 'Roboto-Italic';            /* boolean teach text in header */
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+                width: 300px;
+                height: 42px;
+              }
+              header {
+                padding: 15px;
+                height: 76px;
+              }
+               button{  
+                cursor: pointer;            /* subscribe button */
+              
+                outline: none;  
+                border: black 1px solid;                                        
+                width: 140px;
+                height: 42px;
+                margin-top: 7px;
+                background-color: black;
+                color: white;
+              }

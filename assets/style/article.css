@@ -1,0 +1,56 @@
+@font-face{
+    font-family:'SansSemi-Bold';
+    src:url(../fonts/Open-Sans/OpenSans-SemiBold.ttf);
+}
+@font-face{
+    font-family:'QuickSand-Light';
+    src:url(../fonts/QuickSand/Quicksand-Regular.ttf);
+}
+@font-face{
+    font-family:'QuickSand-Bold';
+    src:url(../fonts/QuickSand/Quicksand-Bold.ttf);
+}
+
+body{
+ 
+}
+
+div.background{
+    padding:10px;
+    
+    
+   
+}
+
+
+
+div.cover{
+ 
+    width:340px ;
+    height:200px ;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+   
+}
+h1{
+   margin-left:5px;
+   margin-top:10px;
+   font-size:30px;
+   font-family: 'SansSemi-Bold';
+   
+}
+   div.container{
+        font-family: 'QuickSand-Light';
+       
+        word-break: break-all;
+        white-space: normal;
+        font-size:18px ;
+        color:rgb(66, 66, 66);
+        
+         
+}
+div.container::first-letter{
+   
+    font-size:36px;
+    color:black;
+}

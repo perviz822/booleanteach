@@ -1,0 +1,49 @@
+div.modal{
+    display: none;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     z-index: 2;
+ }
+ 
+ 
+ div.left-bar-menu{
+     transition: 1s all;
+     width:70%;
+     height:100vh;
+     position: absolute;
+     top:0;
+     left:-75%;
+     overflow: hidden;
+     z-index:3;
+     background:white;
+ }
+ div.left-bar-menu>ul{
+     padding:20px;
+     width: 100%;
+     display: block;
+     margin-top:80px;
+     list-style: none;
+     background:rgb(216, 235, 233);
+    
+ }
+ div.left-bar-menu ul>li:not(:first-child){
+     margin-top: 20px;
+ }
+ div.left-bar-menu ul>li>a{
+     font-weight: 500;
+     font-size:16px;
+     text-decoration: none;
+     color:black;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ div.left-bar-menu ul>li:hover{
+     background-color: turquoise;
+    
+ }
+ div.left-bar-menu ul>li{
+     margin-left:10px;
+ }
+
+
+    

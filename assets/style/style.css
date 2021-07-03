@@ -1,1 +1,338 @@
+html {
+    min-width: 100%;
+  }
+  
+  body {
+    min-width: 100%;
+    height: 100vh;
+    overflow:hidden;
+  }
+  
+  header {
+    padding: 15px;
+    height: 76px;
+  }
+  
+  header div.insta {            /*instagram icon */
+    width: 30px;
+    height: 30px;
+    float: right;
+  }
+  
+  header div.insta img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  div.menu-bars {         /*menu bars icon*/        /* i made menu-bar icon with  css not with any icon*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 30px;
+    height: 22px;
+    float: right;
+    margin-top: 10px;
+  }
+  
+  div.menu-bars div.line {                 /* lines inside of menu-bar*/
+    background-color: #7E7474;
+    width: 30px;
+    height: 4px;
+  }
+  
+  div.menu-bars div.line:not(:first-child) {
+    margin-top: 4px;
+  }
+  
+  section.section1 {         
+    position: relative;
+    font-size: 40px;
+    height: 150px;
+    border: 1px solid gray;
+    border-right: unset;
+    border-left: unset;
+  }
+  section.section1  >div.boolean-container{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
 
+
+  }
+  
+  section.section1  >div.boolean-container>div.booleanteach { 
+    font-size: 45px;
+    font-family: 'Roboto-Regular';            /* boolean teach text in header */
+    height: 42px;
+  }
+   div.boolean-container>div.teach{
+    font-family:'Medium-Bold';
+    position: relative;
+    top:5px;
+    color:gray;
+    font-size:15px;
+    float:right;
+    
+  }
+  
+  section.section2 {
+    margin-top:20px;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  section.section2 button{  
+    cursor: pointer;            /* subscribe button */
+    transition: 1s all;
+    outline: none;  
+    border: black 1px solid;                                        
+    width: 140px;
+    height: 42px;
+    margin-top: 7px;
+    background-color: black;
+    color: white;
+  }
+  button.addedClass{
+   color:black !important;
+   background: white !important;
+  }
+  div.ul{
+    display:none;
+  }
+  div.ul>ul{
+
+    list-style-type: none;
+
+  }
+
+  div.ul>ul>li:not(:first-child){
+    margin-left:15px;
+  }
+div.ul>ul>li>a{
+  font-family: 'Roboto-Regular';
+    color:black;
+    text-decoration: none;
+  }
+  
+ 
+  section.section3 {
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    justify-content:center ;
+    position: relative;
+  }
+  
+  div.corousel-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  section.section3 div.button-container{ 
+    z-index:3;    /*button container contains two right and left button*/
+    width: 100%;                             /* align-items did not work! */
+    position: absolute;
+    top:50% ;
+    transform: translate(0,-50%);
+    display: flex;
+    justify-content: space-between;
+  }
+  section.section3 div.button-container button{
+    font-size:20px;
+    outline:none;
+    border-style:none;
+    width: 30px;
+    height:30px;
+    cursor: pointer;
+  }
+  
+  div.corousel-container div.corousel-element {
+    background-size: cover!important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    transition: 1s all;
+    width: 169px;
+    height: 193px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  
+  
+  
+  div.corousel-container div.corousel-element:not(:first-child) {
+    margin-left: 15px;
+  }
+  
+  section.section4 {
+    margin-top:40px;
+    width: 100%;
+  }
+  section.section4 >div.line{
+    position: relative;
+    left:15px;
+    height:3px;
+    width:50px;
+    background-color:gray;
+  }
+  section.section4 p {
+    padding:20px;
+    margin-top:5px;
+    font-family: "Roboto-Regular";
+    font-size: 18;
+    color:rgb(99, 97, 97);
+  }
+  section.section4 >h3{
+    margin-top:15px;
+    margin-left:15px;
+    font-family: "Inter-Bold";
+  }
+  section.section4 >button.read-more {
+    border:none;
+    padding:10px 30px;
+    margin-left:15px;
+    font-size:16px;
+    font-family:'Roboto-Regular';
+    box-shadow: 5px 10px 18px #888888;
+  }
+  
+  section.section5 {
+  
+    margin-top:180px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+         
+  }
+  section.section5 button{
+    width: 150px;
+    height:50px;
+    margin-top:30px;
+    border:1px solid black;
+    padding:10px 30px;
+    margin-left:15px;
+    font-size:16px;
+    font-family:'Roboto-Regular';
+   
+  }
+  section.section5 button:hover{
+
+    color:white;
+     background:black;
+     border:1px solid white;
+   
+  }
+  section.section5 h3{
+    margin-top:50px;
+    margin-left:15px;
+    font-family: "Inter-Bold";
+  }
+  section.section5  p{
+    padding:20px;
+    margin-top:5px;
+    font-family: "Roboto-Regular";
+    font-size: 18;
+    color:rgb(99, 97, 97);
+  }
+  section.section5 div.line{
+     position: relative;
+    left:80px;
+    height:3px;
+    width:50px;
+    background-color:gray;
+  }
+  
+  section.section5 div.article {  
+    background-size: cover!important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+                                      /*  daily articles for users */
+    width: 290px;
+    height: 388px;
+    position: relative;
+  }
+  section.section5 div.article div.salam{
+                    position:absolute;
+                     top:50%;
+                     left:50%;
+                     transform:translate(-50%,-50%);
+                     width:180px;
+                     height:180px;
+                     background:black;       
+    
+
+  }
+  section.section5 div.article >div.salam:hover{
+    background:rgb(19, 134, 125)
+  }
+  section.section5 div.article {           /*  daily articles for users */
+     background-position: center;
+     background-repeat: no-repeat !important;
+     background-position: 50% !important;
+    
+  }
+  
+ 
+  
+  section.section5 div.article:not(:first-child) {
+    margin-top: 20px;
+  }
+  section.section5>div.welcome{
+    width:30%;
+  }
+  
+  div.corousel-element {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+  }
+  div.square{
+      padding:10px;
+      font-size:20px;
+      transition: 1s all;
+      left:50%;
+      top:80%;
+      transform: translate(-50%,0);
+      position: absolute;
+      visibility: hidden;
+      background: black;;
+  }
+  
+
+  div.salam{
+    font-size:20px;
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+line-height: 180px; 
+   
+  }
+  div.salam :hover{
+    background:red;
+    font-size:20px;
+    color:white;
+    text-align :center;
+
+  }

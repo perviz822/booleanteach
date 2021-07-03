@@ -1,0 +1,94 @@
+
+
+@media only  screen and (min-width:565px){
+    section.section3>div.corousel-container>div.corousel-element{
+        width:250px;
+        height:180px;
+    }
+    section.section5>div.article{
+      
+       
+        background-position: 50% !important;
+        background-size: contain;
+       
+     }
+     
+      
+    }
+    
+
+
+}
+
+@media only  screen and (min-width:788px){
+
+    section.section3>div.corousel-container>div.corousel-element{
+        width:320px;
+        height:210px;
+
+
+    }
+
+}
+@media only  screen and (min-width:900px){
+section.section5{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+section.section5>div:not(:first-child){
+        margin-left:10px;
+    }
+section.section5  div.article{
+        margin-top:0px !important;
+    }
+section.section2 {
+        display: flex;
+        justify-content: space-around;
+    }
+section.section2 >div.ul{
+        display: block;
+    }
+    
+section.section3>div.corousel-container>div.corousel-element{
+        width:600px;
+        height:300px;
+
+
+    }
+section.section4{
+       display: none;
+   }
+   section.section6>ul{
+     display: flex;
+    flex-direction: row;
+  }
+   
+section.section6>ul>div{
+    display: flex;
+    flex-direction: column;
+   
+    
+  }
+section.section6>ul>div.latest-container2{
+    display: flex;
+  }
+
+ 
+
+section.section6 ul>div.latest-container2{
+    margin-left:50px;
+    
+}
+
+
+}
+@media only  screen and (max-width:900px){
+section.section5{
+    align-items:center
+}
+    section.section5>div.welcome{
+      display: none;
+    }
+
+}

@@ -1,0 +1,76 @@
+@font-face{
+  font-family:'OpenSans-Regular';
+  src:url(../fonts/Open-Sans/OpenSans-Regular.ttf);
+}
+
+
+section.section6 {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.section6 ul li {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.section6 ul li div:not(:first-child) {
+  margin-left: 15px;
+}
+
+section.section6 ul li div.container {
+  width: 100px !important;
+  height: 70px !important;
+}
+
+section.section6 ul li div.container img {
+  max-width: 100% ;
+  min-height: 100% ;
+}
+
+section.section6 ul li div.infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+section.section6 ul li div.infos div.header {
+  font-size: 11px;
+  color: gray;
+}
+
+section.section6 ul li div.infos p {
+  font-family: 'OpenSans-Regular';
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+section.section6 ul li div.infos div.history {
+  margin-top: 10px;
+  margin-left: 0;
+  font-size: 11px;
+}
+
+section.section6 li:not(:first-child) {
+  margin-top: 12px;
+}
+
+section.section6 li:hover {
+  background-color: aqua;
+}
+/*# sourceMappingURL=section6.css.map */
